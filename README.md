@@ -32,4 +32,4 @@ Access microservice using rest template by id finds the user and his email addre
 If the email address entered by the user is banned, a "No access" error is thrown.
 If the e-mail address is not banned, then the verification report is saved to the database.
 A message is sent from the customer microservice via rabbitmq to welcome the user to the service.
-Notification microservice reads messages from rabbitmq. As soon as a new message appears in the rabbitmq notification, the microservice reads it, saves it to its database and sends a welcome letter to the user in the service.
+Notification microservice reads messages from rabbitmq. As soon as a new message appears in the rabbitmq notification microservice reads it, saves it to its database and sends a welcome letter to the user in the service.
