@@ -23,6 +23,8 @@ The project uses the following technologies:
 
 ![img.png](img/img4.png)
 
+8. **Docker** - for application deployment PostgreSQL, Zipkin and RabbitMQ.
+
 
 **_About the project_**: The customer registers by entering their name and email address.
 The request passes through the Load Balancer and gets to the desired microservice.
